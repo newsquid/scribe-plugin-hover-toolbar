@@ -1,0 +1,1 @@
+#scribe-plugin-hover-toolbar

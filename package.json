@@ -1,0 +1,25 @@
+{
+  "name": "scribe-plugin-hover-toolbar",
+  "version": "0.0.0",
+  "description": "A plugin providing the ability to style the toolbar of The Guardians scribe editor to hover over selected text",
+  "main": "src/scribe-plugin-hober-toolbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/newsquid/scribe-plugin-hover-toolbar"
+  },
+  "keywords": [
+    "scribe",
+    "plugin",
+    "image",
+    "insertion"
+  ],
+  "author": "Henceforward Media Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newsquid/scribe-plugin-hover-toolbar/issues"
+  },
+  "homepage": "https://github.com/newsquid/scribe-plugin-hover-toolbar"
+}
