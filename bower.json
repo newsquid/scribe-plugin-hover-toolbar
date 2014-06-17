@@ -1,7 +1,7 @@
 {
   "name": "scribe-plugin-hover-toolbar",
   "main": "src/scribe-plugin-hover-toolbar.js",
-  "version": "0.1.0"
+  "version": "0.1.0",
   "ignore": [
     ".editorconfig",
     ".git",
