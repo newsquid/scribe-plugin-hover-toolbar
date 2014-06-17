@@ -42,7 +42,7 @@ define(function(){
         if(selectedElement() && ((selection.range.endOffset - selection.range.startOffset) > 0)){
 
           scribe.transactionManager.run(function(){
-            showToolbar(selectedElement());
+          showToolbar(selectedElement());
           })
         } else {
           selectionOff(event);
@@ -65,6 +65,8 @@ define(function(){
         toolbarElement.style.top = rect.top-rect.height*2 + "px";
         toolbarElement.style.left = rect.left + "px";
         toolbarElement.style.display = "block";
+
+        toolbarElement.focus();
       }
 
       function hideToolbar(){
